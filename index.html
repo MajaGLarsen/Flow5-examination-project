@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Navigationsbar-->
+  <div class="vertical"></div>
+
+  <div class="ml-design">
+    <h1>ML Design</h1>
+    <h2>Multimediedesigner portfolio</h2> 
+  </div>
+ 
+  <div class="home-navbar">
+    <ul>
+      <li class="main-headings"><a href="#">Studie</a>
+        <ul class="home-nav-dropdown">
+          <li class="nav-under-headings"><a href="1semester.html">Første semester</a></li>
+          <li class="nav-under-headings"><a href="#"><em>Andet semester</em></a></li>
+          <li class="nav-under-headings"><a href="#"><em>Tredje semester</em></a></li>
+          <li class="nav-under-headings nav-bottom-dropdown"><a href="#"><em>Fjerde semester</em></a></li>
+        </ul>
+      </li>
+      <li class="main-headings"><a href="about.html">Om ML</a>
+        <ul class="home-nav-dropdown">
+          <li class="nav-under-headings"><a href="about.html">Om ML</a></li>
+          <li class="nav-under-headings nav-bottom-dropdown"><a href="resume.html">Resume - cv</a></li>
+        </ul>
+      </li>
+      <li class="main-headings"><a href="contact.html">Kontakt</a></li>
+    </ul>
+  </div>
+ 
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="my-slides fade">
+            <img src="img/hjemmeside-photo.jpg" class="my-slides-images">
+        </div>
+        
+        <div class="my-slides fade">
+            <img src="img/hjemmeside-photo2.jpg" class="my-slides-images">
+        </div>
+        
+        <div class="my-slides fade">
+            <img src="img/hjemmeside-photo3.jpg" class="my-slides-images">
+        </div>
+        
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+
+        <!--Latest projects-->
+        <div class="projekt-container">
+          <div class="seneste-projekter-line"></div>
+          <h2 class="seneste-projekter-header">Seneste projekter</h2>
+          <div class="seneste-projekter-line"></div>
+        </div>
+        <div class="seneste-projekter-container">
+          <div class="seneste-projekter-box1"><a href="flow4.html"><div class="seneste-projekter-tekst">Flow 4 - Landingpage</div></a></div>
+          <div class="seneste-projekter-box2"><a href="flow5.html"><div class="seneste-projekter-tekst">Flow 5 - Eksamensprojekt</div></a></div>
+        </div>
+
+      <!--Footer-->
+      <div class="footer-container">
+        <h1>Let's be friends!</h1>
+        <div class="footer-horizontal"></div>
+        
+        <div class="footer-tekst">
+          <div><img src="img/github-logo.png" alt="Github"><a href="https://github.com/MajaGLarsen?tab=repositories">Github - Maja Larsen</a></div>  
+          <div><img src="img/gmail-logo.png" alt="Github"><span>Mail - majalsdesign@gmail.com</span></div>
+        </div>
+        <div class="copyright-text">&reg; Maja Larsen</div>
+      </div> 
+ 
+    <script src="slideshow.js">showSlides(1,0);</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.vertical {
+  border-left: 3px solid #5e5e5e;
+  height: 37vw;
+  position: absolute;
+  top: 4vw;
+  left: 70%;
+}
+
+/*Navigation bar and headers*/
+/*Styling for ml-design brand */
+.ml-design {
+  position: absolute;
+  left: 72%;
+  top: 4.5vw;
+  color: #4e4e4e;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.ml-design h1 {
+  font-size: 4.5vw;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.ml-design h2 {
+  font-size: 1.5vw;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/*Styling for navigation bar*/
+.home-navbar { 
+  flex-direction: relative;
+  position: absolute;
+  left: 72%;
+  width: 20%;
+  padding-top: 18%;
+}
+
+.main-headings {
+  color: rgb(78, 78, 78);
+  font-size: 2vw;
+  line-height: 220%;
+}
+
+.main-headings a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+/*hover over links i navbar og dropdown*/
+.home-navbar li:hover {
+  background-color: rgb(195, 217, 217);
+}
+
+.nav-bottom-dropdown:hover {
+  border-radius: 0px 0px 10px 10px;   
+}
+
+/*alle unordered list (display:none - fjerner hele navbar)*/
+.home-navbar ul {
+  list-style: none;
+}
+
+.home-navbar li {
+  position: relative;
+  width: 90%;
+}
+
+.home-navbar li a {
+  display: block;
+}
+
+/*At dropdown kommer frem, når man hover over projects*/
+.home-navbar li:hover .home-nav-dropdown > li {
+  display: block;
+  top: 0;
+}
+
+.home-nav-dropdown > li:hover{
+  background-color: rgb(195, 217, 217);
+}
+
+/*dropdown menu styling*/
+.home-nav-dropdown {
+  position: absolute;
+  flex-direction: column;
+  width: 80%;
+  background-color: rgb(211, 227, 227);
+  border-radius: 2px 2px 10px 10px;
+  padding-left: 0;
+  margin-left: 20%;
+  text-align: center;
+  z-index: 1;
+}
+
+.home-nav-dropdown li {
+  display: none;
+  top: 0px;   
+}
+
+.home-nav-dropdown li a {
+  font-size: 1.2vw;
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  line-height: 220%;
+  display: block;
+}
+
+.nav-under-headings {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
+
+
+/*Pictureslider on front page*/
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+
+.my-slides-images {
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 44%;
+  width: auto;
+  margin-top: -19%;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  font-size: 3.2vw;
+  transition: 0.7s ease;
+  user-select: none;
+}
+
+/* Styling of prev and next buttons individually*/
+.next {
+  right: 0;
+  margin-right: 0.5%;
+  border-radius: 12px; 
+}
+
+.prev {
+  margin-left: 0.5%;
+    border-radius: 12px; 
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s; 
+}
+
+
+/*Porject container - header with lines*/
+.projekt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  width: 70%;
+  margin: -0.7% 0 0 14.5%;
+}
+
+.seneste-projekter-line {
+  border-bottom: 2px solid #4e4e4e;
+  width: 30%;
+  position: relative;
+  margin-bottom: .90%;
+}
+
+/*Latest projects container - flow 3 and 4*/
+.seneste-projekter-container {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 2%;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.seneste-projekter-header {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 2.2vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.seneste-projekter-box1, .seneste-projekter-box2 {
+  width: 470px;
+  height: 310px;
+  margin: 1%;
+  position: relative;
+  box-shadow: 1px 1px 5px  rgb(78, 78, 78);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seneste-projekter-box1 {
+  background-image: url(../flow4/landingpage-frontpage-forbedret.png);
+}
+
+.seneste-projekter-box2 {
+  background-image: url(../img/design-brief-forside.JPG);
+}
+
+.seneste-projekter-box1 a, .seneste-projekter-box2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.seneste-projekter-tekst {
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 20%;
+  padding-top: 5%;
+  margin-top: 25%;
+  border: 2px solid rgb(200, 200, 200);
+  transition: 0.5s;
+}
+
+.seneste-projekter-tekst:hover {
+  background-color: rgba(193, 172, 173, 0.8);
+  border: 2px solid rgb(193, 172, 173);
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}

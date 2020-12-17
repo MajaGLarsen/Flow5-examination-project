@@ -1,0 +1,145 @@
+/*Mockups white line between text*/
+/*Styleguide og mock up*/
+.styleguide-text-box, .mockup-text-box {
+    width: 450px;
+    margin: 1% 2% 5% 2%;
+}
+ 
+
+.mockup-text-box {
+    color: rgb(255, 255, 255);;
+}
+
+.mockup-picture-box {
+    width: 900px;
+    margin: 2% 0;
+}
+
+.styleguide-picture-box {
+    width: 900px;
+    margin-top: -5%;
+}
+
+.styleguide-picture-box iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mockup-picture-box img {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.mockup-picture-box img:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+/*Wireframe button under mock up*/
+.wire-frame-button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(237, 226, 226);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #5e5e5e;
+    position: relative;
+    left: 40%;
+    margin-top: 5%;
+}
+
+.wire-frame-button > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.wire-frame-button:hover {
+    background-color: rgb(247, 242, 242);
+}
+
+
+/*Styleguide button*/
+.styleguide-button {
+    width: 150px;
+    padding: 10px;
+    margin: 8% 0 0 50%;
+    background-color: rgb(207, 179, 179);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #5e5e5e;
+}
+
+.styleguide-button > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.styleguide-button:hover {
+    background-color: rgb(195, 164, 164);
+}
+
+
+/*Reflektion split - header with lines*/
+.white-documentation-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+  }
+
+.white-documentation-line {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 30%;
+    position: relative;
+    margin-bottom: 1.5%;
+  }
+
+.white-documentation-center-line{
+      margin-left: 11%;
+  }
+  
+.white-documentation-header {
+    margin-right: 2%;
+    margin-left: 2%;
+    color: rgb(255, 255, 255);
+  }
+
+.white-documentation-header {
+      margin-right: 2%;
+      margin-left: 2%;
+  }
+
+
+/*Improvement box - improvements of previous projects*/
+.improvement-picture-container, .improvement-text-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.improvement-picture-box {
+    width: 250px;
+    height: 250px;
+    margin: 0.5% 0.5% 200px 0.5%;
+    box-shadow: 2px 2px 5px #5e5e5e;
+}
+
+.improvement-squares-img {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.improvement-squares-img:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.improvement-picture-box  h4 {
+    text-align: center;
+    margin-bottom: -2%;
+}

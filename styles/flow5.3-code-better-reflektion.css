@@ -1,0 +1,103 @@
+
+/*Reflektion split - header with lines*/
+.reflektion-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0;
+  }
+
+  .reflektion-line {
+    border-bottom: 2px solid rgb(78, 78, 78);
+    width: 30%;
+    position: relative;
+  }
+
+.center-line {
+      margin-left: 10%;
+  }
+
+  .reflektion-header {
+      margin: 0 0 -0.8% 0;
+      width: 20%;
+  }
+
+/*Code description AND better description (improvement for project)- code text box*/
+.code-text-box, .better-text-box{
+  width: 400px;
+  margin: 1% 2%;
+}
+
+.code-text-box {
+  color: rgb(255, 255, 255);
+}
+
+.code-image {
+  width: 100%;
+  text-align: center;
+}
+
+.code-image img {
+  width: 46%;
+  margin: 1% 0 4% 0;
+  transition: 0.4s;
+}
+
+.code-image img:hover {
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.better-text-box ul {
+  line-height: 30px;
+}
+
+/*Learning container - actual reflektion text*/
+.learning-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.learning-text {
+    width: 650px;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.learning-tekst-header {
+    font-weight: bolder;
+    margin-bottom: -1%;
+    margin-top: 4%;
+}
+
+
+/*Button for scroll to top of page*/
+.to-top-button-container {
+  width: 100%;
+  text-align: center;
+}
+
+.to-top-button-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.to-top-button {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(207, 179, 179);
+  font-size: 50px;
+  margin-left: 90%;
+  border-radius: 20px;
+}
+
+.to-top-button:hover {
+  background-color: rgb(195, 164, 164);   
+}

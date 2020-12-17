@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*Site header for the page*/
+.site-header {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(217, 195, 195);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.site-header > h1 {
+    padding-top: 2.5%;
+    font-size: 160%;
+}
+
+.pink-box-portfolio {
+    width: 100%;
+    background-color: rgba(239, 228, 229, 0.8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: rgb(207, 179, 179);
+    padding: 20px;
+    width: 600px;
+    margin: 2%;
+  }
+
+  /* Style inputs with type="text", Contact formulars*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(245, 245, 245); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Styling of the submit button*/
+  .send-button {
+    background-color: rgb(237, 226, 226);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 2% 4%;
+    margin-left: 80%;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  .send-button:hover {
+    background-color: rgb(247, 242, 242);
+  }
+  
+  #subject {
+      height: 200px;
+  }
+
+  #submit-button {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .hello-contact-box {
+    background-color: rgb(207, 179, 179);
+    color: rgb(0, 0, 0);
+    width: 400px;
+    margin: 2% 0;
+    border-radius: 4px;
+  }
+  
+  .hello-contact-box h2 {
+      text-align: center;
+      font-size: 150%;
+  }
+
+  .hello-contact-box p {
+      padding-left: 4%;
+  }
+
+  .hello-contact-underline {
+    width: 75%;
+    margin-left: 12.5%;
+    border-bottom: 2px solid black;
+  }
+  
+  .thank-you {
+      font-size: 180%;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+  }
+

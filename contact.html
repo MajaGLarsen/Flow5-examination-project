@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <title>Flow 2</title>
+</head>
+<body>
+    <!--Header til navigationsbar-->
+<header>
+    <!--Entire header-->
+    <div class="nav-container">
+      <!--Top of the header-->
+      <div class="top-of-navbar">
+        <div class="ml-design">
+            <a href="index.html" class="ml-design-name">ML Design</a>
+            <h2><a href="index.html" class="portfolio-text">Multimediedesigner portfolio</a></h2>
+        </div>
+  
+        <!-- Navigation bar - left side-->
+        <div class="navbar">
+          <ul>
+            <li class="nav-main-headings"><a href="index.html">Forside</a></li>
+            <li class="nav-main-headings"><a href="">Studie</a>
+              <ul class="nav-dropdown">
+                <li class="nav-under-headings"><a href="1semester.html">Første semester</a></li>
+                <li class="nav-under-headings"><a href="#"><em>Andet semester</em></a></li>
+                <li class="nav-under-headings"><a href="#"><em>Trejde semester</em></a></li>
+                <li class="nav-under-headings"><a href="#" class="nav-bottom-dropdown"><em>Fjerde semester</em></a></li>
+              </ul>
+            </li>
+            <li class="nav-main-headings"><a href="about.html">Om ML</a>
+              <ul class="nav-dropdown">
+                <li class="nav-under-headings"><a href="about.html">Om ML</a></li>
+                <li class="nav-under-headings"><a href="resume.html" class="nav-bottom-dropdown">Resumé - cv</a></li>
+              </ul>
+            </li>
+            <li class="nav-main-headings"><a href="contact.html">Kontakt</a>
+          </ul>   
+        </div>
+      </div>
+      <!--Underline-->
+    </div>
+    <div class="nav-underline"></div>
+  </header>
+
+<!--Site header picture editing, bridge-->
+<div class="site-header"><h1>Flow 2 - Byg din portfolio</h1></div>
+<div class="pink-box-portfolio">
+    <!--Contact formular container-->
+    <div class="container">
+        <form action="action_page.php">
+          <!--First container, where user inputs info-->
+          <label for="fname">Fulde navn *</label>
+          <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+          <!--Second container, where user inputs info-->
+          <label for="lname">Emne *</label>
+          <input type="text" id="lname" name="lastname" placeholder="Emne på besked..">
+          <!--Third container, where user inputs info-->
+          <label for="subject">Besked *</label>
+          <textarea id="subject" name="subject" placeholder="Besked.."></textarea>
+          <!--Button for user to send the mail-->      
+          <div class="send-button">Send</div>
+        </form>
+        <p>Kontakt feltet er inaktivt på nuværende tidspunkt, kontakt mig i stedet over mail.</p>
+      </div>
+      <!--Hello container-->
+      <div class="hello-contact-box">
+        <h2>Hej!</h2>
+        <div class="hello-contact-underline"></div>
+        <p>Udfyld formularen over til venstre, og jeg vender tilbage hurtigst muligt</p>
+        <p>Eller skriv en mail på majalsdesign@gmail.com</p>
+        <p class="thank-you">Tak på forhånd!</p>
+      </div>
+</div>
+   
+    <!--Footer-->
+    <div class="footer-container">
+      <h1>Let's be friends!</h1>
+      <div class="footer-horizontal"></div>
+      
+      <div class="footer-tekst">
+        <div><img src="img/github-logo.png" alt="Github"><a href="https://github.com/MajaGLarsen?tab=repositories">Github - Maja Larsen</a></div>  
+        <div><img src="img/gmail-logo.png" alt="Github"><span>Mail - majalsdesign@gmail.com</span></div>
+      </div>
+      <div class="copyright-text">&reg; Maja Larsen</div>
+    </div> 
+
+</body>
+</html>

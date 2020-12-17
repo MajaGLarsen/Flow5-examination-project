@@ -1,0 +1,125 @@
+/*Flexbox container*/
+.nav-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(78, 78, 78);
+}
+
+/*Left side of flexbox (nav-container)*/
+.top-of-navbar {
+    width: 75%;
+    height: 190px;
+    flex: 4;
+}
+
+.ml-design {
+    position: relative;
+    text-align: center;
+    height: 110px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.ml-design-name {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    top: 10p;
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+.portfolio-text {
+    font-size: 23px;
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+.ml-design h2 {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+/*Navbar*/
+.navbar {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 0px;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(78, 78, 78);
+    height: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nav-main-headings {
+    font-size: 25px;
+    padding-top: 1.2%;
+}
+
+.nav-under-headings {
+    font-size: 20px;
+}
+
+/*hover over links i navbar og dropdown*/
+.navbar a:hover {
+    background-color: rgb(195, 217, 217);
+}
+
+/*special styling for "Fourth semestr" så den har radius ved hover*/
+.nav-bottom-dropdown:hover {
+    border-radius: 0px 0px 10px 10px;   
+}
+
+/*alle unordered list (display:none - fjerner hele navbar)*/
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+  
+.navbar li {
+    position: relative;
+    width: 100%;
+    
+} 
+
+/*At dropdown kommer frem, når man hover over projects*/
+.navbar li:hover .nav-dropdown > li {
+    display: block;
+    top: 0;
+}
+
+/*dropdown menu styling*/
+.nav-dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(211, 227, 227);
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 0;
+}
+
+.nav-dropdown li {
+    display: none;
+    top: 0px;  
+}
+
+
+ /*Horizontal line under navbar*/
+.nav-underline {
+    position: relative;
+    border-top: 2px solid #4e4e4e;
+    margin-top: -2px;
+    width: 76%;
+    left: 12%;
+    z-index: -1;
+}
+

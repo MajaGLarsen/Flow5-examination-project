@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.site-header {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(217, 195, 195);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.site-header h1 {
+    padding-top: 2%;
+}
+
+
+.flow1, .flow2, .flow3, .flow4, .flow5 {
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    border-bottom: 2px solid rgb(193, 172, 173);
+    padding-bottom: 2%;
+}
+
+
+.flow1, .flow3, .flow5 {
+    background-color: rgba(239, 228, 229, 0.8);
+}
+
+.flow2, .flow4 {
+    background-color: rgb(248, 244, 244);
+}
+
+.picture-box, .text-box {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3.2%;
+    width: 600px;
+}
+
+.picture-box img {
+    width: 100%;
+    margin-bottom: 5%;
+    transition: 0.4s;
+}
+
+.picture-box img:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.box-header {
+    font-size: 200%;
+}
+.sub-items {
+    font-size: 125%;
+}
+
+.click-here {
+    font-size: 125%;
+}
+
+.flow1 ul, .flow2 ul, .flow3 ul, .flow4 ul, .flow5 ul {
+    margin-bottom: 50px;
+}

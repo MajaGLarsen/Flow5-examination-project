@@ -1,0 +1,206 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.site-header {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(217, 195, 195);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.site-header > h1 {
+    padding-top: 2.5%;
+    font-size: 160%;
+}
+
+/*Style to first projekt, */
+.pink-box-container {
+    width: 100%;
+    background-color:rgba(239, 228, 229, 0.8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Pink box dontainer The wide pink containers */
+.pink-box-header {
+    width: 100%;
+    height: 75px; 
+    text-align: center; 
+}
+
+.text-box {
+    width: 350px;
+    color: rgb(255, 255, 255);
+    margin: 5% 2% 5% 2%;
+    border: 1px solid black;
+}
+
+
+/*Small pink container - the dark less wide pink*/
+.dark-pink-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    background-color: rgb(207, 179, 179);
+    justify-content: center;
+}
+
+.dark-pink-header {
+    width: 100%;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*Content on side*/
+/*Vertical line under the headers of the dark pink box*/
+.vertical-header-underline-container {
+    width: 100%;
+    justify-content: center;
+}
+
+.vertical-header-underline {
+    width: 50%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 25%;
+}
+
+
+/*Project texts, with textbox and image overlapping */
+.project-description-text {
+    width: 550px;
+    height: 370px;
+    margin: 30px -30px 40px 0px;
+    border-radius: 5px;
+    background-color: rgb(227,  211,  211);
+}
+
+.project-description-text > h3 {
+    position: relative;
+    text-align: center;
+}
+
+.project-description-text > p {
+    width: 80%;
+    padding-left: 2%;
+}
+
+.project-description-img {
+    width: 550px;
+    height: 315px;
+    margin: 115px 0 40px -30px;
+    z-index: 2;
+}
+
+.project-description-img iframe {
+    width: 560px; 
+    height: 315px; 
+    box-shadow: 2px 2px 5px #5e5e5e;
+}
+
+/*Full projekt desciption button in first boks, leading to examination project description*/
+.full-project-description-button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(207, 179, 179);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #5e5e5e;
+    position: relative;
+    left: 40%;
+    bottom: 5%;
+}
+
+.full-project-description-button > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.full-project-description-button:hover {
+    background-color: rgb(195, 164, 164);
+}
+
+/*Documentation under project description*/
+.documentation-text {
+    width: 400px;
+    margin: 0 2% 2% 2%;
+}
+
+.documentation-text > h3{
+    text-align: center;
+}
+
+/*Documentation button and container - link to full documentation*/
+.documentation-button-container {
+    width: 100%;
+    margin: -1% 0 3% 0;
+}
+.full-documentation-button {
+    background-color: rgb(207, 179, 179);
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #5e5e5e;
+    position: relative;
+    left: 60%;
+}
+
+.full-documentation-button > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.full-documentation-button:hover {
+    background-color: rgb(195, 164, 164);
+}
+
+/*Reflektion split - header with lines*/
+.documentation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+  }
+
+.documentation-line {
+    border-bottom: 2px solid #4e4e4e;
+    width: 30%;
+    position: relative;
+    margin-bottom: 1.5%;
+  }
+
+.documentation-center-line{
+      margin-left: 11%;
+  }
+
+.documentation-header {
+      margin-right: 2%;
+      margin-left: 2%;
+  }
+
+/*Design brief*/
+.design-brief-text {
+    color: rgb(255, 255, 255);
+    width: 450px;
+    color: rgb(255, 255, 255);
+    margin: 2% 2% 5% 2%;
+}
+
+.design-brief-text h4 {
+    font-size: 115%;
+    margin-bottom: -15px;
+}
